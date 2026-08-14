@@ -13,14 +13,22 @@
       height: 100%;
       overflow: hidden;
     }
+    .container {
+      width: 125%;          
+      height: 125vh;
+      transform: scale(0.8);
+      transform-origin: 0 0;
+    }
     iframe {
       width: 100%;
-      height: 50%;
+      height: 100%;
       border: none;
     }
   </style>
 </head>
 <body>
-  <iframe src="https://kingajutrzenka.shinyapps.io/balticdatawind/"></iframe>
+  <div class="container">
+    <iframe src="https://kingajutrzenka.shinyapps.io/balticdatawind/"></iframe>
+  </div>
 </body>
 </html>
